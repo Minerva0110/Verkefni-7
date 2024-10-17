@@ -8,10 +8,8 @@
     "copy:js": "cpy ./*.js ./build/",
     "build": "concurrently npm:copy:*"
   },
-"scripts": {
-  "lint": "eslint *.js ./**/*.js"
-},
- "keywords": [],
+  
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -24,3 +22,4 @@
     "typescript-eslint": "^8.10.0"
   }
 }
+
